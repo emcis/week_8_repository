@@ -1,0 +1,98 @@
+body {
+    <!-- there a-->
+   background-color:rgb(38, 113,235);
+
+}
+h1 {
+   color:Purple ;
+}
+a1 {
+    font-size: 30px;
+}
+h2 {
+    color:rgb(0, 45, 128) ;
+    float: left;
+ }
+title {
+    background-color: Purple 
+    border-style: solid; 
+    border-color: black; 
+    border-radius: 10px;
+}
+th {
+    background-color: rgb(191, 228, 150); 
+    border-style: solid; 
+    border-color: black; 
+    border-radius: 5px;
+}
+tr {
+    background-color: rgb(191, 228, 150); 
+    border-style: solid; 
+    border-color: black; 
+    border-radius: 5px;
+}
+td {
+    background-color: rgb(191, 228, 150); 
+    border-style: solid; 
+    border-color: black; 
+    border-radius: 5px;
+}
+div {
+   background-color: rgb(82, 82, 221); 
+   border-style: solid; 
+   border-color: black; 
+   border-radius: 5px;
+}
+
+.shadow-text {  
+   text-shadow: gray 50px 50px;
+}
+#large-paragraph {
+   font-size: 30px;     
+}
+/* when talking about html element can be thought of as a box */
+/* there are padding, border, and margin */
+
+/* <div id="box-model">
+  content
+  </div>   */
+
+  #box-model {
+    padding: 20px;
+    border-style: solid;
+    border-width: 1 px;
+    width: 400px;
+    margin: 0px;
+    background-color: rgb(221, 236, 241);
+}
+img {
+    float: left
+   }
+/* just put this in the styles.css file because in the html file there is an img file */ 
+.hov {
+    background-color: white;
+}
+
+.hov:hover {
+    background-color:red;
+}
+
+/* <div class="hov"> */
+
+/* styling every other line */
+/* in the html file  */
+/* <uL class="every-even"> */
+/* <li>Item</li> */
+/* <li>Item</li> */
+/* <li>Item</li> */
+/* <li>Item</li> */
+/* <li>Item</li> */
+/* <li>Item</li> */
+/* </ul> */
+
+.every li:nth-child(n) {
+     color: red;
+}
+.every-third li:nth-child(3n) {
+    background-color: red;
+}
